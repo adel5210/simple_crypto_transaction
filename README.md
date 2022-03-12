@@ -14,3 +14,5 @@
 - Create a new directory and initialize npm with ```npm init -y```
 - Add Truffle dependency with ```npm install --save truffle@5.1.8```
 - Add Web3Js dependency with ```npm install --save web3```
+
+... to be continued
