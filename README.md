@@ -23,6 +23,9 @@ A simple transactional blockchain project built with minimal test [Ethereum](htt
 
 You could check ```package.json``` for reference. 
 
+### Dotenv
+For deploying on a public test network, create ```.env``` file on current directory and add your MNEMONIC and INFURA_PROJECT_ID for the config under ```truffle-config.js```
+
 # Deployment 
 ## Private Network
 On the current directory, execute a local develop network:
