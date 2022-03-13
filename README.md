@@ -22,18 +22,26 @@ A simple transactional blockchain project built with minimal test [Ethereum](htt
 # Deployment 
 ## Private Network
 On the current directory, execute a local develop network:
-```truffle develop```
+```
+truffle develop
+```
 This will instantiate a development blockchain locally on port 9545 alongside with 10 sample accounts with their private keys.
 
 Compile the contracts on another terminal with 
-```truffle compile```
+```
+truffle compile
+```
 
 If no errors occurs, migrate it with 
-```truffle migrate --reset```
+```
+truffle migrate --reset
+```
 
 # Testing
 Test can be done on a new terminal with
-```truffle test```
+```
+truffle test
+```
 
 With its expected output:
 ```
