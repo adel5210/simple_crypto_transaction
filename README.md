@@ -1,5 +1,5 @@
 # Simple Transaction (Web3Js+ReactJs) 
-A simple transactional blockchain project built with minimal test [Ethereum](https://en.wikipedia.org/wiki/Ethereum) over a private test network (Ganache) or on a public test network (Rinkeby, Kovan, etc.). Deploying Smart Contract on a public test network can be done thru [Infura](https://infura.io/). 
+A simple transactional blockchain project built with minimal test [Ethereum](https://en.wikipedia.org/wiki/Ethereum) over a private test network (Ganache) or on a public test network (Rinkeby, Kovan, etc.). Deploying Smart Contract on a public test network can be done thru [Infura](https://infura.io/). It comes with ReactJs interface where it could be interacted thru the browser.
 
 
 # Requirements
@@ -12,12 +12,16 @@ A simple transactional blockchain project built with minimal test [Ethereum](htt
 - NodeJs v12.18.0
 
 ## Setup
+
+### New installation
 - Create a new directory and initialize npm with ```npm init -y```
 - Add Truffle dependency with ```npm install -g truffle@5.1.8```
 - Add Web3Js dependency with ```npm install --save web3```
 - Add DotEnv dependency with ```npm install --save dotenv```
 - Add HDWallet-provider dependency with ```npm install @truffle/hdwallet-provider```
 - Add Truffle-Assertions dependency with ```npm install truffle-assertions```
+
+You could check ```package.json``` for reference. 
 
 # Deployment 
 ## Private Network
