@@ -103,9 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Exclude UI
-client/
-
 # Exlude Project config
 .idea/
 
