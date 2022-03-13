@@ -41,8 +41,9 @@ truffle compile
 If no errors occurs, migrattion can be done on current session terminal with 
 
 ```
-truffle migrate --reset
+migrate --reset
 ```
+or on a new terminal with
 ```
 truffle migrate --reset
 ```
