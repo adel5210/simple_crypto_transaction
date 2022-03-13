@@ -105,3 +105,6 @@ dist
 
 # Exclude UI
 client/
+
+# Exlude Project config
+.idea/
