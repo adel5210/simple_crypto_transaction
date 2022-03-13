@@ -27,14 +27,15 @@ truffle develop
 ```
 This will instantiate a development blockchain locally on port 9545 alongside with 10 sample accounts with their private keys.
 
-
 Compile the contracts on another terminal with 
 ```
 truffle compile
 ```
+If no errors occurs, migrattion can be done on current session terminal with 
 
-
-If no errors occurs, migrate it with 
+```
+truffle migrate --reset
+```
 ```
 truffle migrate --reset
 ```
