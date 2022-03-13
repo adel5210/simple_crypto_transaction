@@ -108,3 +108,6 @@ client/
 
 # Exlude Project config
 .idea/
+
+package.json
+package-lock.json
