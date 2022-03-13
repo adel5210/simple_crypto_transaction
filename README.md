@@ -47,6 +47,11 @@ or on a new terminal with
 ```
 truffle migrate --reset
 ```
+### On Browser
+- On a new terminal, change your working directory to client
+- Ensure npm packages is installed 
+- Run it with ```npm run start```
+- It will automatically opens your browser with ```localhost:3000``` 
 
 # Testing
 Test can be done on a new terminal with
